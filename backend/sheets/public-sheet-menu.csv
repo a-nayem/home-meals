@@ -1,0 +1,8 @@
+ItemID,Name,Description,Price,ImageURL,Available,Category
+AK-001,Chicken Biryani,"Slow-cooked basmati with tender chicken and Amma's own spice mix",180,,Y,Rice
+AK-002,Beef Tehari,"Mustard-oil beef tehari with potato and boiled egg",200,,Y,Rice
+AK-003,Egg Khichuri,"Comfort khichuri with fried egg and begun bhaja",120,,Y,Rice
+AK-004,Mutton Rezala,"Rich mildly spiced mutton curry with roti",250,,N,Curry
+AK-005,Vegetable Curry Set,"Mixed vegetable curry with rice and dal",110,,Y,Set Meal
+AK-006,Payesh,"Traditional rice pudding, small cup",60,,Y,Dessert
+AK-007,Fuchka (6 pcs),"Tangy tamarind water fuchka, made fresh to order",80,,Y,Snacks
