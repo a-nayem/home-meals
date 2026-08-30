@@ -49,7 +49,7 @@ export default function ListYourKitchenPage() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-2 font-mono text-xs uppercase tracking-widest text-brick">Shop Charter</p>
           <p className="mx-auto mb-8 max-w-[56ch] text-parchmentDim">
-            It costs nothing to join, and there is no commission on your orders. Discord order automation is free too.
+            It costs nothing to join and there is no commission on your orders. Discord order automation is free too.
           </p>
           <div className="mx-auto max-w-sm rounded-xl border border-gold/30 bg-baseRaised p-8">
             <p className="font-mono text-xs uppercase tracking-widest text-gold">First 5 Shops Offer!</p>
