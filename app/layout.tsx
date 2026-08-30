@@ -26,17 +26,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/how-it-works" className="hover:text-gold">How It Works</Link>
               <Link href="/list-your-kitchen" className="hover:text-gold">Kitchens</Link>
             </div>
-            <div className="flex items-center gap-4 text-parchmentDim">
-              <span aria-hidden>🛒</span>
-              <span aria-hidden>👤</span>
-            </div>
           </div>
         </nav>
         {children}
         <footer className="border-t border-white/10 bg-baseRaised py-6 text-xs text-parchmentDim">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6">
-            <span>© 2026 Home Meals. Real food cooked with love on campus.</span>
-            <div className="flex gap-4">
+            <span className="select-none">© 2026 Home Meals. Real food cooked with love on campus.</span>
+            <div className="flex select-none gap-4">
               <span>Terms</span>
               <span>Privacy</span>
               <span>Support</span>
