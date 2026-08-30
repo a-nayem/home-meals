@@ -11,27 +11,35 @@
   font-family: var(--font-display), serif;
 }
 
-/* Tailwind's reset removes the native pointer cursor from buttons and
-   doesn't set one on links either, which makes clicks feel like you're
-   clicking into editable text. Force it everywhere interactive. */
+/* By default every browser makes plain text (headings, paragraphs, labels)
+   show an I-beam "text" cursor and become selectable on click or drag.
+   This site should feel like an app, not a document, so that's turned off
+   everywhere by default. Real inputs and textareas get it back below,
+   since those genuinely are editable and should show a real caret. */
+* {
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input,
+textarea {
+  cursor: text;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Every interactive control gets a pointer cursor, whether it's a native
+   button/link or something acting as one. */
 button,
 a,
 [role="button"],
 input[type="submit"],
-input[type="button"] {
+input[type="button"],
+label {
   cursor: pointer;
 }
 
 button:disabled {
   cursor: not-allowed;
-}
-
-/* Prevent the text-selection caret/highlight from appearing on quick or
-   double clicks on anything meant to be a control, not editable text. */
-button,
-a,
-[role="button"],
-.no-select {
-  -webkit-user-select: none;
-  user-select: none;
 }
