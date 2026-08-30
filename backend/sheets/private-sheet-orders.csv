@@ -1,4 +1,0 @@
-Timestamp,OrderCode,Item,Qty,UnitPrice,Total,BuyerName,Contact,DeliveryLocation,PaymentMethod,TransactionID,PaymentVerified,Notes
-2026-08-27 12:03,AK-240827-K3X9,Chicken Biryani,2,180,360,Tanvir R.,01710000001,North Hall Room 214,bKash,8X4K2P9Q1Z,Verified,Less spicy please
-2026-08-27 13:41,AK-240827-M8L2,Fuchka (6 pcs),1,80,80,Nusrat J.,01710000002,South Hall Gate 2,Cash,,Pending,
-2026-08-27 18:22,AK-240827-T1V7,Beef Tehari,3,200,600,Rafiul H.,01710000003,CSE Building Lobby,bKash,9Y7N3R2A5B,Rejected,Transaction ID did not match amount
