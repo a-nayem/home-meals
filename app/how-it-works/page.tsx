@@ -46,7 +46,7 @@ export default function HowItWorksPage() {
             </div>
             <p className="mt-3 rounded-md bg-gold/10 px-3 py-2 text-xs text-gold">
               Trust &amp; Transparency: the cook never sees your unfulfilled order until they've confirmed your
-              request, and never charged automatically until they've responded.
+              request and never charged automatically until they've responded.
             </p>
           </div>
 
